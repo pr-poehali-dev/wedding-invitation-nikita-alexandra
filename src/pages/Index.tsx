@@ -29,10 +29,18 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-secondary/30 to-background">
-      <div 
-        className="absolute inset-0 opacity-10 bg-cover bg-center"
-        style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/7713d82a-2a02-48c9-a6e7-ffa2bcc05899/files/051b6052-391d-43cb-b746-cc5780e4e791.jpg)' }}
-      />
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover opacity-20"
+        >
+          <source src="https://cdn.pixabay.com/video/2020/07/17/44632-440293089_large.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-secondary/30 to-background/50" />
+      </div>
 
       <section className="relative min-h-screen flex items-center justify-center px-4">
         <div className="text-center animate-fade-in">

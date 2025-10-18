@@ -138,9 +138,9 @@ const Index = () => {
               <div className="flex items-start gap-4 mb-6">
                 <Icon name="MapPin" className="text-primary flex-shrink-0 mt-1" size={28} />
                 <div>
-                  <h3 className="font-heading text-3xl mb-3 text-foreground font-medium">Усадьба "Романтика"</h3>
+                  <h3 className="font-heading text-3xl mb-3 text-foreground font-medium">ЦЭТ Берхино</h3>
                   <p className="font-body text-lg text-muted-foreground mb-4">
-                    Московская область, деревня Прекрасное, ул. Садовая, 12
+                    Московская область, г. о. Луховицы, д. Берхино, ул. Осетровая, д. 1
                   </p>
                   <div className="space-y-2 font-body text-muted-foreground">
                     <div className="flex items-center gap-2">

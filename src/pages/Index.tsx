@@ -50,7 +50,7 @@ const Index = () => {
             День их свадьбы
           </p>
           <p className="font-heading text-5xl md:text-6xl text-primary mt-8 font-light">
-            15 августа 2025
+            2 августа 2026
           </p>
         </div>
       </section>
@@ -65,7 +65,7 @@ const Index = () => {
               { year: '2019', title: 'Первая встреча', text: 'Наши пути пересеклись холодным октябрьским вечером в уютной кофейне. Один взгляд изменил всё.' },
               { year: '2021', title: 'Первое путешествие', text: 'Вместе мы открыли для себя Италию. Венеция стала символом нашей любви.' },
               { year: '2023', title: 'Предложение', text: 'На берегу моря, под звёздным небом, прозвучал самый важный вопрос.' },
-              { year: '2025', title: 'Свадьба', text: 'И вот мы здесь, готовые начать новую главу нашей истории вместе с вами.' }
+              { year: '2026', title: 'Свадьба', text: 'И вот мы здесь, готовые начать новую главу нашей истории вместе с вами.' }
             ].map((item, idx) => (
               <Card key={idx} className="border-none shadow-lg bg-card/80 backdrop-blur-sm animate-fade-in hover:shadow-xl transition-shadow">
                 <CardContent className="p-8">
@@ -169,7 +169,7 @@ const Index = () => {
             Подтверждение присутствия
           </h2>
           <p className="text-center font-body text-lg text-muted-foreground mb-12">
-            Пожалуйста, подтвердите своё присутствие до 1 июля 2025
+            Пожалуйста, подтвердите своё присутствие до 1 июля 2026
           </p>
           <Card className="shadow-2xl border-none">
             <CardContent className="p-8 bg-card/95 backdrop-blur-sm">
@@ -358,7 +358,7 @@ const Index = () => {
           Никита & Александра
         </p>
         <p className="font-body text-muted-foreground">
-          15 августа 2025
+          2 августа 2026
         </p>
       </footer>
     </div>
